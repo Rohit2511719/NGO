@@ -1,0 +1,90 @@
+{% extends 'base.html'%}
+{% load static %}
+{% block childpage %}
+<!--
+<div class="text-center fs-2"><b>LOG</b><b class="txt-mycolor">
+    IN
+<i class="fa-solid fa-user"></i>
+
+</b></div>
+<div class="row ">
+
+    <div class="col-sm-6 mb-3  p-4 rounded rounded-2 w-50 bg-light">
+        <form>
+            <b>First Name :</b><input type="text" class="form-control" placeholder="Enter Your First Name">
+            <b>Second Name :</b><input type="text" class="form-control"  placeholder="Enter Your Second Name">
+            <b>Email-Id :</b><input type="email" class="form-control"  placeholder="Enter Your Email-Id">
+            <b>Mobile No. :</b><input type="number" class="form-control"  placeholder="Enter Your Mobile No.">
+            <b>Country :</b><select class="form-control" >
+
+                <option>Select Option</option>
+                <option>INDIA</option>
+                <option>AMERICA</option>
+                <option>SOUTH KOREA</option>
+                <option>ENGLAND</option>
+            </select>
+
+            <b>Address :</b><textarea class="form-control" ></textarea>
+            <b>State :</b><select class="form-control" >
+
+                <option>Select Option</option>
+                <option>UTTAR PRADESH</option>
+                <option>MAHARASTRA</option>
+                <option>MADHYA PRADESH</option>
+                <option>UTTRAKHAND</option>
+            </select>
+
+            <b>Pincode :</b><input type="number" class="form-control"  placeholder="Enter Your Pincode">
+            <b>Address :</b><textarea  class="form-control" ></textarea>
+            <b>Password :</b><input type="password" class="form-control"  placeholder="Enter Your Password">
+
+
+        </form>
+
+    </div>
+<div class="col-sm-6 p-5 bg-mycolor">
+    <div class="row">
+        <div class="col-sm-12">
+    <h2>LifeSaving<b class="txt-mycolor">NGO</b></h2></br>
+    <h3 class="ps-3">Welcome To <b class="txt-mycolor">Our NGO</b></h3>
+            <p class="ps-4">It's Our Plesure That You Are Joining Us</p>
+         </div>
+        <div class="col-sm-12">
+            <img src="{% static 'images/23.jpg'%}" max-height="400px;" width="600px;" class="py-5"
+        </div>
+</div>
+</div>
+</div>-->
+<div class="row">
+    <div class="col-sm-6">
+        <p class="fw-bolder fs-1 mt-5 text-center">Html css login</p>
+        <p class="fs-2 text-center fw-bolder">Form</p>
+        <p class="text-center">The Login Form is created using pure..</p>
+        <p class="text-center">html and css for social icons.</p>
+        <p class=" text-center">Font Awesome is used </p>
+    </div>
+    <div class="col-sm-6 mt-3 bg-light py-2">
+        <p class="fs-3 text-center mt-2 fw-bolder">Login Here</p>
+        <a href="#"><i class="fa-brands fa-twitter text-dark"></i></a>
+        <a href="#"><i class="fa-brands fa-facebook text-dark"></i></a>
+        <form method="post">
+            Full Name<br/>
+        <input type="text" class="form-control" required placeholder="Enter your full name"/>
+            Last Name<br/>
+        <input type="text" class="form-control" placeholder="Enter your last name"/>
+            Email<br/>
+        <input type="email" class="form-control" placeholder="Enter your email"/>
+            Phone <br/>
+        <input type="number" class="form-control" placeholder="Enter your number"/>
+            Address<br/>
+        <textarea class="form-control" placeholder="Enter your address"></textarea>
+            PinCode<br/>
+        <input type="number"class="form-control"  placeholder="enter your pincode"/>
+            Occupation
+        <input type="text" class="form-control" placeholder="enter your Occupation"/>
+            Password
+        <input type="password" class="form-control" placeholder="enter your password"/>
+        </form>
+    </div>
+</div>
+{% endblock %}
